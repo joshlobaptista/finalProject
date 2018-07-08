@@ -1,0 +1,538 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+  color: black;
+}
+
+footer {
+  background-color: #f5f5f5;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+h2 {
+  color: red;
+
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px;
+  font-family: helvetica;
+  background-color: #BF6890;
+}
+
+main {
+  margin-left: 21.3%;
+  margin-right: 15.3%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+i {
+  background-color: red;
+
+}
+
+ul > h3 {
+  color: red;
+
+}
+
+.veryBottom {
+  display: block;
+  width: auto;
+  text-align: center;
+}
+
+.footerList {
+  margin-left: 25%;
+
+}
+
+.footerList > nav > ul {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  padding-right: 30px;
+  text-align: left;
+}
+
+.footerList > nav > ul > li {
+  padding-bottom: 10px;
+  margin-right: 20px;
+
+
+}
+
+.apps {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.browse {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+
+.cities {
+  padding-top: 72px;
+  border-bottom: 1px solid grey;
+}
+
+.cubes {
+  padding-right: 5px;
+}
+
+.grey {
+  background-color: #f5f5f5;
+  width: 100%
+
+}
+
+.hot {
+  display: inline-block;
+  float: left;
+  height: auto;
+  width: 900px;
+}
+
+.mobile {
+  width: 50%;
+  float: left;
+  margin-left: 25.8%;
+}
+
+.ipad, .android {
+  border: 1px solid darkblue;
+  border-radius: 4px 4px 4px 4px;
+  width: 48%;
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+
+.newBusinesses {
+  border: 1px solid grey;
+  float: left;
+  display: block;
+  height: 350px;
+  width: 32%;
+  margin-left: 12px;
+  text-align: left;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.topLeft {
+  float: left;
+
+}
+
+.topRight {
+  float: right;
+  margin-right: 3%;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.inTown {
+  display: inline-block;
+  width: 100%;
+}
+
+.find {
+  text-align: center;
+  display: inline;
+}
+
+.headerContent {
+  padding-top: 30px;
+  margin-left: 15.8%;
+  margin-right: 15.8%;
+
+}
+
+.restaurant {
+  text-align: center;
+}
+
+.bottomHeader {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.recentReview {
+  display: inline-block;
+  float: left;
+  height: auto;
+  width: 100%;
+  text-align: left;
+
+}
+
+.dailyReview {
+  display: block;
+  float: left;
+  width: 70%;
+}
+
+.activity {
+  border: 1px solid lightgrey;
+  border-radius: 4px 4px 4px 4px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 30%;
+  height: auto;
+  display: block;
+  float: left;
+  padding-left: 10px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+.greyBox {
+  background-color: #f5f5f5;
+  height: auto;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.recentActivity {
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 40px;
+  margin-top: 30px;
+}
+
+.recentLists {
+  display: block;
+  float: left;
+  width: 22%;
+  text-align: left;
+}
+
+.recentLists > ul {
+  display: inline;
+
+}
+
+.activity span + a > img {
+  width: 100%;
+  height: 150px;
+  border-top: 1px solid lightgrey;
+}
+
+.bottomHeader > a {
+  color: white;
+  text-decoration: none;
+}
+
+.newBusinesses > img {
+  width: 100%;
+  height: 180px;
+  float: left;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.topFour > section {
+  display: block;
+  background-color: white;
+  border-radius: 4px 4px 4px 4px;
+  float: left;
+  width: 25%;
+  margin-left: 9px;
+  width: 220px;
+}
+
+.bottomFour > section {
+  display: block;
+  float: left;
+  width: 25%;
+  background-color: white;
+  border-radius: 4px 4px 4px 4px;
+  margin-left: 9px;
+  margin-top: 5px;
+  width: 220px;
+}
+
+.topLeft > a {
+  color: black;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.userPhoto > img {
+  border-radius: 4px 4px 4px 4px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.veryBottom > img {
+  width: 810px;
+
+}
+
+.cubes > a > img {
+  border-radius: 4px 4px 4px 4px;
+}
+
+.bottomHeader > h4 > a {
+  color: white;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.find > form > input {
+  width: 458px;
+  height: 23px;
+  padding: 13px;
+  border-radius: 4px 0 0 4px;
+}
+
+
+.find > form > button {
+  border-radius: 0 4px 4px 0;
+  border: 0;
+  background: #d32323;
+  padding: 19px 20px 13px;
+  box-shadow: none;
+}
+
+.topRight > span > a {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+
+}
+
+.cities > nav > ul > li {
+  list-style:  none;
+  display: inline;
+  padding-right: 12px;
+
+}
+
+.recentLists > ul > li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+}
+
+.recentLists > ul > li > img {
+  height: 75px;
+  width: 75px;
+  float: left;
+
+}
+
+.restaurant > nav > ul > li {
+  list-style: none;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo > h1 > a > img {
+  width: 200px;
+  height: 160px;
+  padding: 0;
+}
+
+.inTown {
+  display: inline-block;
+  width: 100%;
+
+}
+
+.restaurant > nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.inTown > .cubes {
+float: left;
+
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+
+header {
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  height: auto;
+  }
+
+footer {
+  display: none;
+}
+
+.activity {
+  width: 100%
+}
+
+.headerContent {
+  margin: 0px;
+
+}
+
+.browse {
+  text-align: center;
+}
+
+.apps {
+  display: none;
+}
+
+.topLeft {
+  display: none;
+  }
+
+.find {
+  width: 100%;
+
+  }
+
+.location {
+  display: none;
+
+}
+
+.topRight {
+  width: 100%;
+  text-align: center;
+
+  }
+
+.grey {
+  width: 100%;
+  height: auto;
+  }
+
+.greyBox {
+  width: 100%;
+  height: auto;
+  }
+
+.hot {
+  display: none;
+
+  }
+
+
+.recentReview {
+  display: none;
+
+  }
+
+.cubes  {
+  width: 100%;
+
+  }
+
+}
+
+@media (min-width:769px) and (max-width: 1025px) {
+
+header {
+  width: 100%;
+  text-align: left;
+  }
+
+footer {
+  margin-left: 0px;
+
+}
+
+.headerContent {
+  margin: 0;
+
+}
+
+.recentLists {
+  display: none;
+}
+
+.topLeft {
+  display: none;
+  }
+
+  .find {
+  width: 100%;
+
+  }
+
+.apps {
+  display: none;
+
+}
+
+.topRight {
+  width: 100%;
+  text-align: center;
+  }
+
+.hot {
+  width: auto;
+  height: auto;
+
+}
+
+.newBusinesses {
+  width: auto;
+  height: auto;
+
+}
+
+.grey {
+  width: 100%;
+  height: auto;
+  }
+
+.greyBox {
+  width: 100%;
+  height: auto;
+
+  }
+
+.cubes {
+  width: 100%;
+
+  }
+
+.veryBottom > img {
+  max-width: 100%;
+}
+
+}

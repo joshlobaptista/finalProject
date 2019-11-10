@@ -1,5 +1,5 @@
 # finalProject
-This is done only in HTML and CSS. This is the begining of my final project which I will turn into a full-stack web application.
+This project is built using only in HTML and CSS. This is the beginning of my final project which will turn into a full-stack web application.
 
 # What I want to do
 I want to make a app that allows users to select a sport which will then display to them near by parks which will have its set of features including park reputation, difficulty, and account for people attended.
